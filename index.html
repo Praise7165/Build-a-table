@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Build a table</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+
+            body {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+
+            }
+            td, th {
+                border: 1px solid black;
+                padding: 8px;
+            }
+
+
+
+            h1, p {
+                max-width: 400px;
+                text-align: center;
+            }
+
+            p {
+                margin: 16px 0 32px 0;
+            }
+
+
+        </style>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+
+        <h1>Mountains</h1>
+        <p>List of the tallets mountains in the world</p>
+        <div id="mountains"></div>
+        
+    </body>
+</html>
